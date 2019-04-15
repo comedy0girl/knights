@@ -1,0 +1,72 @@
+.menu {
+	width: 100%;
+	z-index: 500;
+	margin: 0;
+	text-align: center;
+	position: relative;
+	background: $paper;
+	.menu-bar {
+		.upper-nav {
+			height: 50px;
+			display: -webkit-box;
+		    display: -ms-flexbox;
+		    display: flex;
+		    -webkit-box-align: center;
+		    -ms-flex-align: center;
+		    align-items: center;
+		    -webkit-box-pack: center;
+		    -ms-flex-pack: center;
+		    justify-content: center;
+			background: $green;
+			padding: 0 0.5em;
+			color: $paper;
+			a {
+				color: $green;
+				&:hover {
+					color: $turk;
+				}
+			}
+			.upper-left {
+				text-align: left;
+				ul {
+					margin: 0;
+					padding: 0;
+				}
+			}
+			.upper-right {
+				text-align: right;
+			}
+		}
+		
+		.menu-wrapper{
+			.menu-main-menu-container {
+				display: -webkit-box;
+			    display: -ms-flexbox;
+			    display: flex;
+			    -webkit-box-align: center;
+			    -ms-flex-align: center;
+			    align-items: center;
+			    -webkit-box-pack: center;
+			    -ms-flex-pack: center;
+			    justify-content: center;
+			    padding: 1em 0;
+			    ul#menu-main-menu {
+			    	margin-bottom: 0;
+			    	li {
+			    		font-size: 1.5em;
+			    		padding: 0 0.5em;
+			    		a {
+			    			color: $dark;
+			    			font-family: $bold;
+			    			text-transform: uppercase;
+			    			font-size: 0.8em;
+			    			&:hover {
+			    				color: $lighter;
+			    			}
+			    		}
+			    	}
+			    }
+			}
+		} 
+	}
+}

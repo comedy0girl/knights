@@ -1,0 +1,58 @@
+.news-container {
+	margin: 1em 0;
+	background-color: $body;
+	.single-post-text {
+		padding: 0.8em;
+		text-align: center;
+		a {
+			
+			text-decoration: underline;
+		}
+		h1 {
+			color: $dark;
+			font-family: $bold;
+			margin-top: 1em;
+			margin-bottom: 0;
+			img {
+					max-width: 100%;
+				}
+			p {
+				img {
+					max-width: 100%;
+				}
+				
+			}
+
+		}
+		.postDate {
+			
+			font-weight: 500;
+			letter-spacing: 0.05em;
+			font-family: $new;
+			margin-bottom: 1em;
+		}
+		.wp-caption.alignnone,
+		.wp-caption.alignleft {
+			max-width: 100%;
+			height: auto;
+			img.size-full {
+				max-width: 100%;
+				height: auto;
+			}
+		}
+		
+	}
+
+	.share-the-love {
+    	text-align: center;
+    	font-size: 1.5em;
+    	.wpfai-list {
+    		.wpfai-list-item{
+    			a {
+    				
+    			}
+    		}
+    	}
+    	
+	}
+}

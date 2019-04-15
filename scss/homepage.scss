@@ -1,0 +1,29 @@
+.news { 
+	.camping-icons {
+    	text-align: center;
+    	font-size: 4em;
+    	color: $dark;
+	}
+}
+.reservations{
+	background: $bright;
+	margin-bottom: 1em;
+	.reservations-inner {
+	  	padding: 2em 1em;
+		color: $text;
+		text-transform: uppercase;
+	    text-transform: uppercase;
+	    display: -webkit-box;
+	    display: -ms-flexbox;
+	    display: flex;
+	    -webkit-box-align: center;
+	    -ms-flex-align: center;
+	    align-items: center;
+	    -webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	    justify-content: center;
+		h3.section-title {
+			width: 100%;
+		}
+	}
+}

@@ -1,0 +1,254 @@
+@media only screen and (max-width: 900px) { 
+	.news {
+		.the-post {
+			width: 100%;
+			margin: 0;
+			padding: 0;
+			padding: 1em;
+			height: 600px;
+			.post-inner-info {
+
+				.post-pic {
+					height: 450px;
+				}
+			}
+		}
+	}
+	.news-blog {
+		.the-post {
+			padding: 0;
+		}
+	}
+
+	.galleryContent {
+		
+		.main-galleryContainer {
+			width: 100%;
+			margin: 0!important;
+			padding: 0;
+			.gallery {
+				width: 90%;
+				margin: 0 auto;
+			}
+		}
+		.gallery-sidebar {
+			width: 100%;
+			margin-bottom: 1em;
+			margin-left: 0;
+		}
+	}
+
+	.the-links {
+		.inner-links-boxes {
+			width: 100%;
+
+		}
+	}
+		
+	
+}
+@media only screen and (max-width: 800px) { 
+	.image-links {
+		.hi-wendi {
+			width: 100%;
+		}
+		.the-links {
+			width: 100%;
+			.inner-links-boxes {
+				width: 90%;
+				.images {
+					width: 47%;
+				}
+			}
+		}
+	}
+
+}
+
+
+
+@media only screen and (max-width: 750px) { 
+
+	.title.hide {
+		display: none;
+	}
+	.mobile-title {
+		display: block;
+		z-index: 600;
+    	position: relative;
+    	a {
+    		color: $paper;
+    	}
+	}
+	.no-mobile {
+		display: none;
+	}
+	
+	.galleryContent {
+		.main-galleryContainer {
+			width: 100%;
+			margin-left: 8.6666666666667%;
+		}
+	}
+	footer {
+		.footer-inner {
+			.section {
+				width: 100%;
+			}
+		}
+	}
+
+	.news-blog {
+		.the-post {
+			width: 100%;
+			padding: 0;
+			margin: 0;
+			height: 400px;
+			margin-bottom: 3em;
+		}
+	}
+}
+
+@media only screen and (max-width: 670px) { 
+	.menu-footer-menu-container {
+		ul#menu-footer-menu {
+			li {
+				display: block;
+			}
+		}
+	}
+
+	.project-info {
+		ul {
+			li {
+				display: block;
+				text-align: left;
+			}
+		}
+	}
+
+}
+
+@media only screen and (max-width: 600px) { 
+	.mobile-title {
+		h1 {
+			font-size: 4rem;
+		}
+	}
+	
+	
+	.website-title {
+		h1 {
+			font-size: 3em;
+			margin-bottom: 0;
+		}
+	}
+
+	.image-links {
+		
+		.the-links {
+			
+			.inner-links-boxes {
+				
+				.images {
+					width: 100%;
+				}
+			}
+		}
+	}
+
+	
+
+	.news-container {
+		.share-the-love {
+			font-size: 1.2em;
+		}
+	}
+	
+}
+
+
+@media only screen and (max-width: 550px) { 
+	.news {
+		.the-post {
+			height: 420px;
+			.post-inner-info {
+				.post-pic {
+					height: 300px;
+				}
+			}
+		}
+	}
+}
+
+@media only screen and (max-width: 523px) { 
+	.website-title {
+		h1 {
+			font-size: 2em;
+			margin-bottom: 0;
+		}
+	}
+	.news-container {
+		.share-the-love {
+			font-size: 1em;
+		}
+	}
+} 
+
+@media only screen and (max-width: 470px) { 
+	.mobile-title {
+		h1 {
+			font-size: 3.5rem;
+		}
+	}
+	// .gallery {
+	// 	position: relative;
+ //    	margin: 0 auto 20px;
+ //    	display: table;
+	// }
+	.hi-wendi {
+		img.wendi-follow-me {
+			max-width: 100%;
+		}
+	}
+}
+
+
+@media only screen and (max-width: 420px) { 
+	.welcomeHero {
+		.wendi {
+			img {
+				max-width: 94%;
+			}
+		}
+	}
+
+}
+
+@media only screen and (max-width: 400px) { 
+	.mobile-title {
+		h1 {
+			font-size: 3rem;
+		}
+	}
+	.welcomeHero {
+		height: 345px;
+		.wendi {
+			height: 400px; 
+		}
+	}
+}
+
+@media only screen and (max-width: 335px) { 
+	.news-blog  {
+		.the-post {
+
+			a.classic-button {
+				width: 50%;
+				margin-bottom: 1em;
+				bottom: auto;
+			}
+		}
+	}
+
+}
